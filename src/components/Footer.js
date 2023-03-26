@@ -5,30 +5,44 @@ import linkedin_icon from '../img/linkedin_icon.png';
 
 const Footer = () => {
   return (
-    <Navbar expand="lg" bg="primary" variant="dark" fixed="bottom">
+    <Navbar bg="primary" fixed="bottom">
       <Container>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Nav className="m-auto">
           <Nav.Link
             href="https://github.com/loganjlevin"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image alt="" src={github_icon} width={40} />
+            <Image
+              className="footer-icon"
+              alt=""
+              src={github_icon}
+              width={40}
+            />
           </Nav.Link>
           <Nav.Link
             href="https://www.linkedin.com/in/loganjlevin/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image alt="" src={linkedin_icon} width={40} />
+            <Image
+              className="footer-icon"
+              alt=""
+              src={linkedin_icon}
+              width={40}
+            />
           </Nav.Link>
           <Nav.Link
             href="https://twitter.com/loganjlevin"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image alt="" src={twitter_icon} width={41} />
+            <Image
+              className="footer-icon"
+              alt=""
+              src={twitter_icon}
+              width={40}
+            />
           </Nav.Link>
         </Nav>
       </Container>
