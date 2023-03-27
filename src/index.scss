@@ -1,6 +1,7 @@
 $theme-colors: (
   'primary': #af87dd,
   'secondary': #f1f1f1,
+  'black': #131313,
 );
 
 * {
@@ -9,7 +10,7 @@ $theme-colors: (
   font-family: 'Roboto Mono', monospace;
   background-color: #af87dd;
   color: #f1f1f1;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .sidebar {
@@ -64,7 +65,22 @@ $theme-colors: (
 
 .projects {
   text-align: center;
-  margin-top: 5%;
+}
+.projects h1 {
+  font-size: 60px;
+  padding: 20px;
 }
 
+.card {
+  transition: ease 200ms;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card .link {
+  color: #131313;
+  text-decoration: none;
+}
 @import '~bootstrap/scss/bootstrap.scss';
