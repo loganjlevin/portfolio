@@ -7,39 +7,10 @@ $theme-colors: (
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Roboto Mono', monospace;
   background-color: #af87dd;
   color: #f1f1f1;
-  overflow-x: hidden;
-}
-
-.sidebar {
-  height: 100%;
-  max-width: 250px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  overflow-x: hidden;
-  padding-top: 100px;
-}
-
-.sidebar a {
-  margin: 60px 0px 0px 10px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #f1f1f1;
-  display: block;
-  transition: transform 0.4s;
-}
-
-.sidebar a:hover {
-  color: #131313;
-  transform: translateX(-15px);
-}
-.sidebar a.active {
-  color: #131313;
-  transform: translateX(-15px);
 }
 
 .footer-icon {
