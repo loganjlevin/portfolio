@@ -15,7 +15,7 @@ const MainView = () => {
         <Sidebar />
         <main>
           <Routes>
-            <Route path="/portfolio" element={<Home />} />
+            <Route path="/portfolio/" element={<Home />} />
             <Route path="/portfolio/projects" element={<Projects />} />
             <Route path="/portfolio/code" element={<CodeSamples />} />
             <Route path="/portfolio/about" element={<About />} />

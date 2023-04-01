@@ -11,7 +11,7 @@ const Sidebar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav activeKey={location.pathname} className="me-auto">
-            <Nav.Link to="/portfolio" as={Link}>
+            <Nav.Link to="/portfolio/" as={Link}>
               Home
             </Nav.Link>
             <Nav.Link to="/portfolio/projects" as={Link}>
