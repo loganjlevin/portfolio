@@ -8,6 +8,7 @@ const Sidebar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container className="sidebar">
+        <Navbar.Brand href="/portfolio/"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav activeKey={location.pathname} className="me-auto">

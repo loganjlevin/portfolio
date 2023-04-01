@@ -116,6 +116,7 @@ const Projects = () => {
           </Card>
         </Col>
       </Row>
+      <div style={{ height: '80px' }}></div>
     </Container>
   );
 };
