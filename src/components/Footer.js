@@ -2,6 +2,7 @@ import { Navbar, Container, Nav, Image } from 'react-bootstrap';
 import twitter_icon from '../img/twitter_icon.png';
 import github_icon from '../img/github_icon.png';
 import linkedin_icon from '../img/linkedin_icon.png';
+import './Footer.scss';
 
 const Footer = () => {
   return (

@@ -3,7 +3,10 @@
   flex-direction: column;
 }
 
-@media (min-width: 1024px) {
+main {
+  margin: auto;
+}
+@media (min-width: 992px) {
   .layout-container {
     flex-direction: row-reverse;
   }

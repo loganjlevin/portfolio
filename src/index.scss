@@ -13,45 +13,4 @@ $theme-colors: (
   color: #f1f1f1;
 }
 
-.footer-icon {
-  transition: transform 0.4s;
-}
-.footer-icon:hover {
-  transform: translateY(-10px);
-}
-
-.home {
-  text-align: center;
-  margin-top: 15%;
-}
-
-.home h1 {
-  font-size: 84px;
-  margin: 40px;
-}
-
-.typed {
-  font-size: 24px;
-}
-
-.projects {
-  text-align: center;
-}
-.projects h1 {
-  font-size: 60px;
-  padding: 20px;
-}
-
-.card {
-  transition: ease 200ms;
-}
-
-.card:hover {
-  transform: scale(1.03);
-}
-
-.card .link {
-  color: #131313;
-  text-decoration: none;
-}
 @import '~bootstrap/scss/bootstrap.scss';

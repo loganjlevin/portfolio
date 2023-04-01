@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import myflix from '../img/myflix.png';
 import pokedex from '../img/PokedexApp.png';
 import meet from '../img/meetapp.png';
+import './Projects.scss';
 
 const Projects = () => {
   return (
@@ -12,7 +13,7 @@ const Projects = () => {
           <h1>Projects</h1>
         </Col>
       </Row>
-      <Row xs={1} sm={1} md={1} lg={2} xl={3} className="g-4">
+      <Row xs={1} md={2} xl={3} className="g-4">
         <Col>
           <Card className="m-3 shadow">
             <Card.Img variant="top" src={myflix} />
@@ -115,7 +116,6 @@ const Projects = () => {
           </Card>
         </Col>
       </Row>
-      <div style={{ height: '80px' }}></div>
     </Container>
   );
 };
