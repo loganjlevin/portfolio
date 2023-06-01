@@ -5,7 +5,12 @@
     padding: 20px;
   }
   .card {
+    height: 500px;
     transition: ease 200ms;
+    img {
+      height: 50%;
+      object-fit: cover;
+    }
     &:hover {
       transform: scale(1.03);
     }
