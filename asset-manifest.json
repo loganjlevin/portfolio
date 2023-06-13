@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3eee6eab.css",
-    "main.js": "/portfolio/static/js/main.bdaefd28.js",
+    "main.css": "/portfolio/static/css/main.d030309d.css",
+    "main.js": "/portfolio/static/js/main.bb4073ce.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/myflixAngular.png": "/portfolio/static/media/myflixAngular.2782736147c50ad6cef0.png",
     "static/media/myflix.png": "/portfolio/static/media/myflix.68cb4c6d104457ddc629.png",
     "static/media/chatApp.png": "/portfolio/static/media/chatApp.e7bf5d79ffa10596f02e.png",
+    "static/media/selfie.jpg": "/portfolio/static/media/selfie.2daa4e0187d6364797f0.jpg",
     "static/media/PokedexApp.png": "/portfolio/static/media/PokedexApp.91a7a0e1d93b99481229.png",
     "static/media/meetapp.png": "/portfolio/static/media/meetapp.d2d251d16aba7ecd2171.png",
     "static/media/movieApi.png": "/portfolio/static/media/movieApi.ba15603f41d4cef0ded8.png",
     "static/media/github_icon.png": "/portfolio/static/media/github_icon.4cd1e523105af655270c.png",
     "static/media/linkedin_icon.png": "/portfolio/static/media/linkedin_icon.0640ef8401c2ad5eb4e6.png",
     "index.html": "/portfolio/index.html",
-    "main.3eee6eab.css.map": "/portfolio/static/css/main.3eee6eab.css.map",
-    "main.bdaefd28.js.map": "/portfolio/static/js/main.bdaefd28.js.map",
+    "main.d030309d.css.map": "/portfolio/static/css/main.d030309d.css.map",
+    "main.bb4073ce.js.map": "/portfolio/static/js/main.bb4073ce.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eee6eab.css",
-    "static/js/main.bdaefd28.js"
+    "static/css/main.d030309d.css",
+    "static/js/main.bb4073ce.js"
   ]
 }
