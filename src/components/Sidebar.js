@@ -1,7 +1,7 @@
-import { Nav, Navbar, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
-import './Sidebar.scss';
+import { Nav, Navbar, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import "./Sidebar.scss";
 
 const Sidebar = () => {
   const location = useLocation();
@@ -17,9 +17,6 @@ const Sidebar = () => {
             </Nav.Link>
             <Nav.Link to="/portfolio/projects" as={Link}>
               Projects
-            </Nav.Link>
-            <Nav.Link to="/portfolio/code" as={Link}>
-              Code Samples
             </Nav.Link>
             <Nav.Link to="/portfolio/about" as={Link}>
               About Me
