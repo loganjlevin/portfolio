@@ -11,11 +11,6 @@ import chatApp from '../img/chatApp.png';
 const Projects = () => {
   return (
     <Container className="projects">
-      <Row>
-        <Col className="justify-content-center">
-          <h1>Projects</h1>
-        </Col>
-      </Row>
       <Row xs={1} md={2} xl={3} className="g-4">
         <Col>
           <Card className="m-3 shadow">

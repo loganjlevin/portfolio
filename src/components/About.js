@@ -1,10 +1,9 @@
-import "./About.scss";
-import selfie from "../img/selfie.jpg";
+import './About.scss';
+import selfie from '../img/selfie.jpg';
 
 const About = () => {
   return (
     <div className="about">
-      <h1>About Me</h1>
       <div className="about-content">
         <img src={selfie} alt="logan-profile" />
         <div>
@@ -15,7 +14,7 @@ const About = () => {
             Computer Science class in college did I fall in love with solving
             problems with computers. Though my career has taken a different
             course, coding has always been my primary hobby and passion and that
-            is why I'm making the career change to software desvelopment.
+            is why I'm making the career change to software development.
           </p>
           <p>
             When I'm not finding novel solutions to computer problems I can be
